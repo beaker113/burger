@@ -1,0 +1,31 @@
+<form>
+
+</form>
+
+<ul id="burger-list" class="list-group">
+  {{#if devoured === true}}
+          {{#each burgers}}
+        
+          <li data-id="{{this.id}}" class="list-group-item">
+            
+            <div class="col-md-12">burger: {{this.burger}}</div>
+            
+         
+            <button id="{{this.id}}" class="btn btn-danger float-left delete">devour</button>
+            
+          </li>
+         </form>
+          {{/each}}
+          {{/if}}
+          </ul>
+
+          {{#if devoured === false}}
+          
+
+
+
+
+
+
+
+
